@@ -11,6 +11,7 @@ function App() {
       <Features />
       <ChatList />
       <ChatArea />
+    <h1>Hello World </h1>
     </div>
   )
 }
