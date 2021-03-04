@@ -1,29 +1,35 @@
-import React from 'react'
+import React from "react"
 
 const ChatList = () => {
-    return (
-        <div className='ChatList' id='style1'>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-
-        </div>
-    )
+  return (
+    <div className="ChatList" id="style1">
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+      <h1>Hello World</h1>
+    </div>
+  )
 }
 
-export default ChatList;
+export default ChatList

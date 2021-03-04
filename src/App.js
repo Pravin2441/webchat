@@ -4,13 +4,12 @@ import ChatList from "./component/ChatList"
 import ChatArea from "./component/ChatArea"
 import "./App.css"
 
-import "./App.css"
 function App() {
   return (
     <div className="main-div">
-      <Features />
-      <ChatList />
-      <ChatArea />
+      <Features className="Feature-section" />
+      <ChatList className="ChatList-section" />
+      <ChatArea className="ChatArea-section" />
     </div>
   )
 }
