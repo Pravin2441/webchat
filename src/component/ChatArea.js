@@ -1,13 +1,13 @@
-import React from 'react'
-
-
+import React from "react";
+import Profile from "./profile";
 const ChatArea = () => {
-    return (
-        <div className='ChatArea'>
-            {/* <header className='ChatArea-header'></header> */}
-
-        </div>
-    )
-}
+  return (
+    <div className="ChatArea">
+      <header>
+        <Profile className="profile" />
+      </header>
+    </div>
+  );
+};
 
 export default ChatArea;

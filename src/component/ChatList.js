@@ -1,12 +1,18 @@
 import React from "react";
-import logo from "./profile/walter.jpg";
+import Profile from "./profile";
+import Search from "./search";
 const ChatList = () => {
   return (
     <div className="ChatList" id="style1">
+      <div className="newChat">
+        <h2>Chat</h2>
+        <button>+</button>
+      </div>
+      <Search />
+
       <div className="chat">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h2>Vijay</h2>
-        <p>Tap to Chat</p>
+        <Profile />
+        <p>Click here to Chat</p>
       </div>
     </div>
   );
