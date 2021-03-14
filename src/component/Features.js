@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styled, { ThemeProvider } from "styled-components";
-import { lightTheme, darkTheme, GlobalStyles } from "./themes.js";
+import { lightTheme, darkTheme, GlobalStyles } from "./darkMode.js";
+import darkmode from './images/dark-mode.png'
 const StyledApp = styled.div`
   color: ${(props) => props.theme.fontColor};
   toggleborder: ${(props) => props.theme.toggleBorder};
@@ -18,7 +19,7 @@ function Feature() {
       <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
         <GlobalStyles />
         <StyledApp>
-          <button onClick={() => themeToggler()}>Change Theme</button>
+          <img src={darkmode} onClick={() => themeToggler()}></img>
         </StyledApp>
       </ThemeProvider>
     </div>
