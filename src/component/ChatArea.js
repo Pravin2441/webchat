@@ -6,9 +6,9 @@ const ChatArea = () => {
   return (
     <div className="ChatArea">
       <header>
-        <button>
+      
           <img src={option} className="headerOption"></img>
-        </button>
+    
         <Profile className="profile" />
         <Chatbox />
       </header>

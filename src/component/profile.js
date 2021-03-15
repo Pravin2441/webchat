@@ -1,11 +1,11 @@
 import React from "react";
-import logo from "./profile/vijay.jpg";
+import logo from "./profile/save.png";
 
 const Profile = () => {
   return (
     <div className="profile">
       <img src={logo} alt="profile" />
-      <p>Pravin</p>
+      <p>Save</p>
     </div>
   );
 };
