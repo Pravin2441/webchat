@@ -6,12 +6,14 @@ const ChatArea = () => {
   return (
     <div className="ChatArea">
       <header>
-      
-          <img src={option} className="headerOption"></img>
-    
+        <img src={option} className="headerOption" alt="headerOption"></img>
+
         <Profile className="profile" />
-        <Chatbox />
       </header>
+
+      <footer>
+        <Chatbox />
+      </footer>
     </div>
   );
 };

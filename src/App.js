@@ -4,16 +4,19 @@ import ChatList from "./component/ChatList";
 import ChatArea from "./component/ChatArea";
 import "./App.css";
 import "./responsive.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import login from "./login";
+import CssBaseline from "@material-ui/core/CssBaseline";
 
 function App() {
   return (
-    <div className="main-div">
-      <Features />
-      <ChatList />
-      <ChatArea />
-    </div>
+    <React.Fragment>
+      <CssBaseline>
+        <div className="main-div">
+          <Features />
+          <ChatList />
+          <ChatArea />
+        </div>
+      </CssBaseline>
+    </React.Fragment>
   );
 }
 

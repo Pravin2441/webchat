@@ -11,8 +11,9 @@ const ChatList = () => {
       <Search />
 
       <div className="chat">
-        <Profile />
-        <p>Click here to Chat</p>
+        <Profile>
+          <h1>Click here to Chat</h1>
+        </Profile>
       </div>
     </div>
   );
